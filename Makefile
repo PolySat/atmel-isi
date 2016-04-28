@@ -13,7 +13,7 @@ endif
 all: $(KERN_MODS)
 
 install_headers:
-	echo installed
+	cp -f atmel-isi.h $(HEADER_DIR)
 
 .FORCE:
 ifeq ($(KERNELRELEASE),)

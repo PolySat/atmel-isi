@@ -12,6 +12,8 @@
 
 #include <linux/videodev2.h>
 
+#define SYNC_CCIR656 0
+
 /* ISI register offsets */
 #define ISI_CR1					0x0000
 #define ISI_CR2					0x0004

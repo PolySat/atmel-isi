@@ -39,7 +39,6 @@
 #include <mach/cpu.h>
 
 #include "atmel-isi.h"
-#include "sync.h"
 
 #ifdef pr_debug
 #undef pr_debug
